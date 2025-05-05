@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 id="topHeading">Delicious Recipes</h2>
+        <nav>
+            <ul>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="link"><a href="#details">Recipes</a></li>
+                <li class="link"><a href="#searchFeature">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="middleHeading">Explore Delicious Recipes</section>
+
+    <div class="banner">
+        <section class="search" id="searchFeature">
+            <input type="text" id="search" placeholder="Search for recipes...">
+        </section>
+
+        <section class="search">
+            <button id="searchBtn">Search</button>
+        </section>
+
+        <section id="list" class="box">
+            <ul id="match"></ul>
+        </section>
+        
+    </div>
+
+    <div class="details">
+        <section id="details" class="box2">
+            <h2 id="name"></h2>
+            <img id="recipeImg" src="" alt="Recipe Image">
+            <h3>Ingredients</h3>
+            <ul id="ingredients"></ul>
+            <h3>Instructions</h3>
+            <ul id="instructions"></ul>
+            <button id="printBtn" class="printBtn">Print</button>
+        </section>
+
+    </div>
+    <section class="featHeading">
+        <h2 id="featHeading"> Featured Recipes</h2>
+    </section>
+
+    <div class="container">
+        <section class="blocks">
+            <img class="img" src="Spaghetti.jpg" alt="spaghetti">
+            <h3 class="blockHeading">Spaghetti Carbonara</h3>
+        </section>
+
+        <section class="blocks">
+            <img class="img" src="Chicken.jpg" alt="chicken" srcset="">
+            <h3 class="blockHeading">Chicken Curry</h3>
+        </section>
+
+        <section class="blocks">
+            <img class="img" src="lasagna.jpg" alt="">
+            <h3 class="blockHeading">Lasagna</h3>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <h2 id="aboutUs">About Us</h2>
+        <p>Learn more about our mission to bring delicious recipes to your kitchen.</p>
+        <p>If you have any questions, feel free to reach out!</p>
+        <p>Email: info@deliciousrecipes.com</p>
+        <p>Phone: +011-456-7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
